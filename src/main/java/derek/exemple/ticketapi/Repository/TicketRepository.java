@@ -1,2 +1,7 @@
-package derek.exemple.ticketapi.Repository;public interface TicketRepository {
+package derek.exemple.ticketapi.Repository;
+
+import derek.exemple.ticketapi.Models.Ticket;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface TicketRepository extends JpaRepository<Ticket, Integer> {
 }

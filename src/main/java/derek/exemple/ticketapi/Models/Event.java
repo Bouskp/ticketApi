@@ -19,11 +19,10 @@ import java.util.Timer;
 public class Event {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private int id;
     private String titre;
     private Date date;
     private TimeZone heure;
     private String adresse;
     private TypeEvent event;
-
 }
